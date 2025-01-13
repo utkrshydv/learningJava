@@ -12,7 +12,7 @@ public class arrayMinMax {
         int[] dynamicArray = new int[n];
 
         System.out.println("Enter elements: ");
-        for(int i =0; i<n; i++) {
+        for(int i = 0; i<n; i++) {
             dynamicArray[i] = scanner.nextInt();
         }
 
