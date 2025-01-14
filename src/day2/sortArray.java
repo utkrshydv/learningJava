@@ -1,4 +1,5 @@
 package day2;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class sortArray {
@@ -15,11 +16,17 @@ public class sortArray {
         for(int i=0; i<n; i++){
             array[i] = scanner.nextInt();
         }
-
+//Method 2
         sortAscending(array, n);
         sortDescending(array, n);
         sort(array, true);
         sort(array, false);
+
+//Method 3 - built in
+
+        Arrays.sort(array);
+        System.out.println("Ascending (built in): "+Arrays.toString(array));
+
     }
 
     public static void sortAscending(int[] array, int n){
