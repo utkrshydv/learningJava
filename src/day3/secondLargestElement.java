@@ -2,9 +2,9 @@ package day3;
 
 public class secondLargestElement {
     public static void main(String[] args) {
-        int[] array = {11, 7, 4, 9, 10};
+        int[] array = {11, 12, 4, 15, 13};
 
-        int largest = Integer.MIN_VALUE;
+        int largest = array[0];
         int secondLargest = Integer.MIN_VALUE;
 
         for (int i = 0; i < array.length; i++) {
@@ -16,10 +16,6 @@ public class secondLargestElement {
             }
         }
 
-        if (secondLargest == Integer.MIN_VALUE) {
-            System.out.println("No second largest element exists.");
-        } else {
-            System.out.println("Second Largest: " + secondLargest);
-        }
+        System.out.println("Second Largest: " + secondLargest);
     }
 }
