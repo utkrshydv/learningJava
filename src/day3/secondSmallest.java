@@ -11,7 +11,7 @@ public class secondSmallest {
             if(array[i] < smallest){
                 secondSmallest = smallest;
                 smallest = array[i];
-            } else if (array[i] > smallest && array[i] < secondSmallest){
+            } else if (array[i] != smallest && array[i] < secondSmallest){
                 secondSmallest = array[i];
             }
         }
