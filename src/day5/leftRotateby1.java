@@ -17,7 +17,6 @@ public class leftRotateby1 {
         for(int i=1; i<n; i++){
             array[i-1] = array[i];
         }
-
         array[n-1] = value;
     }
 }
