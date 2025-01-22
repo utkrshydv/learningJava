@@ -36,4 +36,3 @@ public class FrequencyArray {
         System.out.println("Unique elements: " + Arrays.toString(legitFreqArray));
     }
 }
-
