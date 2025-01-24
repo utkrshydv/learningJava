@@ -44,5 +44,3 @@ public class UnionSortedArray {
         System.out.println(Arrays.toString(result));
     }
 }
-
-
