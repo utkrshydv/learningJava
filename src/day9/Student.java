@@ -54,7 +54,6 @@ public class Student {
         }
 
         System.out.println("\nStudent with the lowest CGPA: " + lowestCgpaStudent + " (CGPA: " + lowestCgpa + ")");
-
         scanner.close();
     }
 }
